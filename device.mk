@@ -135,7 +135,7 @@ PRODUCT_PACKAGES += \
 # Update engine
 PRODUCT_PACKAGES += \
     brillo_update_payload \
-    update_engine \
+    # update_engine \
     update_verifier
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
@@ -145,7 +145,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 PRODUCT_PACKAGES_DEBUG += \
-    update_engine_client
+    # update_engine_client
 
 # USB
 PRODUCT_PACKAGES += \
